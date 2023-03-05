@@ -54,6 +54,34 @@
 
 # 14- if we have this list [2,4,6,8,10] :
      #1. check to see if 4 in this list or not
+
+if 4 in l:
+    print('4 in list')
+else:
+    print('4 not in list')
+#---> 4 in list
+
      #2. check to see if 4 and 6 in this list on not
+
+if 4 and 6 in l:
+    print('4 and 6 in list')
+else:
+    print('4 and 6 not in list')
+
+#---> 4 and 6 in list
      #3. check to see if 3 or 6 in this list
-     #4. check to see if 2 , 4 and 5 in this list Python Conditions Tasks
+
+if 3 or 6 in l:
+    print('3 or 6 in list')
+else:
+    print('3 or 6 not in list')
+
+#---> 3 or 6 in list
+     #4. check to see if 2 , 4 and 5 in this list
+
+if all([2, 4, 5]):
+    print('all in the list')
+else:
+    print('all not in the list')
+
+#---> all in the list
