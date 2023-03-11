@@ -44,19 +44,22 @@ for x in range(10, 101, 3):
     print(x)
     
 # 8- Get a list of even numbers from 1 to 100 using for
-# (don't understand this question)
 
-for x in range(1, 100 + 1):
-    print(x)
+for num in range(1, 100 + 1):
+    if num %2 == 0:
+        print(num, end = " ")
     
 # 9- Get a list of even numbers from 1 to 100 using while
-# (don't understand this question)
-x = 0
-while x < 101 :
-    print(x)
-    x += 1
-    
+print('-----------------------')
+
+x=0
+while x < 102:
+    print(x, end = " ")
+    x +=2
+
 # 10- Get a list of even numbers from 1 to 100 using range
-# (don't understand this question)
-for x in range(1, 100 + 1):
-    print(x)
+print('------------------------')
+
+even = list(range(1,100,2))
+print(even)
+
