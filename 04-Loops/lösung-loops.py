@@ -63,3 +63,9 @@ print('------------------------')
 even = list(range(1,100,2))
 print(even)
 
+print('++++++++++++++++++++++++++++++++++++++++')
+
+start = int(input('enter the stating number: ' ))
+end = int(input('enterthe end number: '))
+for i in range(start, end, 2):
+    print(i)
